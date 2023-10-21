@@ -334,7 +334,6 @@ body {
     height: 40px;
     background-color: var(--black-color);
     border: 1px solid var(--write-color);
-
     border-radius: 50%;
 }
 .page-top a::before {
