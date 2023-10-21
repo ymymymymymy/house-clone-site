@@ -82,6 +82,9 @@ body {
 #header nav .sns li {
     padding: 8px 0;
 }
+.hamburger {
+    display: none;
+}
 
 /*video*/
 #video {
