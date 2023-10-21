@@ -667,7 +667,7 @@ body {
         line-height: 30px;
         background-color: var(--flow-bg-color);
         border-radius: 50%;
-        color: #fff;
+        color: var(--write-color);
         font-size: 16px;
         text-align: center;
         position: absolute;
@@ -1084,9 +1084,9 @@ body {
         content: "";
         position: absolute;
         background-color: var(--flow-color);
-        width: 70px;
+        width: 80px;
         height: 700px;
-        left: 150px;
+        left: 40%;
     }
     #flow .flow-items .flow-design p {
         width: 320px;
@@ -1117,7 +1117,7 @@ body {
         line-height: 30px;
         background-color: var(--flow-bg-color);
         border-radius: 50%;
-        color: #fff;
+        color: var(--write-color);
         font-size: 16px;
         text-align: center;
         position: absolute;
