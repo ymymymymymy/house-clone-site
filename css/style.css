@@ -316,11 +316,16 @@ body {
     font-size: 11px;
 }
 .page-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     right: 10px;
     bottom: 10px;
     z-index: 100;
+    transition: 0.3s;
 }
+
 .page-top a {
     position: relative;
     display: block;
