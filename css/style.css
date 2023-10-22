@@ -480,7 +480,7 @@ body {
     /*ハンバーガーメニュー*/
     .hamburger {
         width: 60px;
-        height: 100%;
+        height: 100vh;
         background-color: transparent;
         border: transparent;
         display: block;
