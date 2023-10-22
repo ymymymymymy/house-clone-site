@@ -415,9 +415,6 @@ body {
         right: 0;
         z-index: 1000;
         background-color: var(--write-color);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     #header .header-title {
         width: 30%;
@@ -436,7 +433,6 @@ body {
 
     .bgc {
         display: none;
-        transform: 0.5s;
     }
     .bgc.active {
         width: 100%;
@@ -479,12 +475,14 @@ body {
 
     /*ハンバーガーメニュー*/
     .hamburger {
-        width: 60px;
-        height: 100vh;
+        width: 70px;
+        height: 70px;
         background-color: transparent;
         border: transparent;
         display: block;
-        position: relative;
+        position: fixed;
+        top: 0;
+        right: 0;
         z-index: 9999;
     }
     .hamburger span {
@@ -923,12 +921,14 @@ body {
 
     /*ハンバーガーメニュー*/
     .hamburger {
-        width: 60px;
-        height: 100%;
+        width: 70px;
+        height: 70px;
         background-color: transparent;
         border: transparent;
         display: block;
-        position: relative;
+        position: fixed;
+        top: 0;
+        right: 0;
         z-index: 9999;
     }
     .hamburger span {
